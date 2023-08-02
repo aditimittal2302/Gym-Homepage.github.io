@@ -1,0 +1,183 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("pexels-anush-gorak-1229356.jpg");
+    background-size:cover;
+    color: white;
+    background-repeat: no-repeat;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 40px;
+
+} 
+nav h1{
+    font-size: 50px;
+    color:white;
+    transform: translateX(5px);
+    margin-right: 210px;
+}
+ul{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    margin: 20px;
+    font-size: 15px;
+}
+ul li a:hover{
+    /* border-bottom: 3px solid black; */
+    cursor: pointer;
+    color:skyblue;
+    animation-name: aditi;
+    animation-duration: 1s;
+}
+@keyframes aditi{
+    from{
+        font-size: 15px;
+    }
+    to{
+        font-size: 20px;
+    }
+}
+.text button{
+    width: 100px;
+    border-radius: 3px;
+    height: 44px;
+    background:linear-gradient(pink,purple);
+    color: white;
+    font-size: 15px;
+    box-shadow: 0px 3px 4px solid black;
+    border: none;
+    margin-top: 40px;
+    margin-left:10px;
+}
+.text button:hover{
+    background-color: cadetblue;
+}
+.text{
+    margin: 6%;
+    margin-top: 120px;
+}
+.text h1{
+    font-size: 40px;
+    color: white;
+}
+.text p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+nav h1 span{
+    color:red;
+}
+.container .text h1 span
+{
+    color:plum;
+}
+.text .a p{
+    color: white;
+    font-size: 20px;
+    margin-left:5px;
+    margin-top: 50px;
+}
+.text h1{
+    position: relative;
+    animation-name: result;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    cursor: pointer;
+
+}
+@keyframes result{
+    from{
+        font-size: 40px;
+
+    }
+    to{
+        font-size: 50px;
+    }
+}
+ul button{
+    background-color: red;
+    border-radius: 3px;
+    
+    color: white;
+    box-shadow: 4px 4px 0 #d90429;
+    transition: transform 0.2s,box-shadow 0.2s;
+    width:100px;
+    height: 34px;
+    font-size: 18px;
+    border: none;
+}
+button:hover{
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 0px 0px 0 #d90429;
+}
+.area p span{
+    color: red;
+
+}
+.area p{
+    margin-bottom: 10px;
+    
+}
+.nav logo{
+    display: flex;
+    justify-content: center;
+    width:30px;
+}
+@media screen and (max-width:992px)
+{
+    nav h1{
+        font-size: 50px;
+        margin-right: 140px;
+        display: inline;
+
+    }
+    nav h1 span{
+        display: inline;
+
+    }
+    .text{
+         font-size:x-small;
+    }
+
+}
+@media screen and (max-width:768px)
+{
+    nav h1{
+        font-size: 40px;
+        margin-right: 150px;
+        display: flex;
+        padding: 3%;
+        margin-left: 20px;
+    }
+    .text .a p{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    nav h1{
+        font-size: 30px;
+        margin-right: 100px;
+        /* margin-left: 5%; */
+        display: inline;
+        padding: 3%;
+        justify-content: center;
+        margin-left: 30px;
+}
+.text .a p{
+    font-size: 60px;
+}
+
+
+}
